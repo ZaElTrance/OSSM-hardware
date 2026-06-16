@@ -953,7 +953,7 @@ class Edge : public Pattern {
 /**************************************************************************/
 static Pattern *patternTable[] = {
     new SimpleStroke("Simple Stroke"),
-    new TeasingPounding("Teasing Pounding"),
+    new TeasingPounding("Teasing or Pounding"),
     new RoboStroke("Robo Stroke"),
     new HalfnHalf("Half'n'Half"),
     new Deeper("Deeper"),
@@ -967,3 +967,5 @@ static Pattern *patternTable[] = {
     new Heartbeat("Heartbeat"),
     new Edge("Edge")
 };
+
+static const unsigned int patternTableSize = sizeof(patternTable) / sizeof(patternTable[0]);
