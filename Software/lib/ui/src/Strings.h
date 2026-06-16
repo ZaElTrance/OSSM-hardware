@@ -120,44 +120,4 @@ namespace ui {
         static const char patternName0[] PROGMEM = "Simple Stroke";
         static const char patternName1[] PROGMEM = "Teasing Pounding";
         static const char patternName2[] PROGMEM = "Robo Stroke";
-        static const char patternName3[] PROGMEM = "Half'n'Half";
-        static const char patternName4[] PROGMEM = "Deeper";
-        static const char patternName5[] PROGMEM = "Stop'n'Go";
-        static const char patternName6[] PROGMEM = "Insist";
-
-        static const char* const strokeEngineNames[7] = {
-patternName0, patternName1, patternName2,
-patternName3, patternName4, patternName5,
-patternName6,
-        };
-
-        // ============================================================
-        // Stroke Engine pattern descriptions
-        // ============================================================
-        static const char patternDesc0[] PROGMEM =
-            "Acceleration, coasting, deceleration equally split; no "
-            "sensation.";
-        static const char patternDesc1[] PROGMEM =
-            "Speed shifts with sensation; balances faster strokes.";
-        static const char patternDesc2[] PROGMEM =
-            "Sensation varies acceleration; from robotic to gradual.";
-        static const char patternDesc3[] PROGMEM =
-            "Full and half depth strokes alternate; sensation affects speed.";
-        static const char patternDesc4[] PROGMEM =
-            "Stroke depth increases per cycle; sensation sets count.";
-        static const char patternDesc5[] PROGMEM =
-            "Pauses between strokes; sensation adjusts length.";
-        static const char patternDesc6[] PROGMEM =
-            "Modifies length, maintains speed; sensation influences "
-            "direction.";
-
-        static const char* const strokeEngineDescriptions[7] = {
-patternDesc0, patternDesc1, patternDesc2,
-patternDesc3, patternDesc4, patternDesc5,
-patternDesc6,
-        };
-
-    }  // namespace strings
-}  // namespace ui
-
-#endif  // UI_STRINGS_H
+        static const char patternName
