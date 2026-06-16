@@ -120,4 +120,70 @@ namespace ui {
         static const char patternName0[] PROGMEM = "Simple Stroke";
         static const char patternName1[] PROGMEM = "Teasing Pounding";
         static const char patternName2[] PROGMEM = "Robo Stroke";
-        static const char patternName
+        static const char patternName3[] PROGMEM = "Half'n'Half";
+        static const char patternName4[] PROGMEM = "Deeper";
+        static const char patternName5[] PROGMEM = "Stop'n'Go";
+        static const char patternName6[] PROGMEM = "Insist";
+        static const char patternName7[] PROGMEM = "Wave";
+        static const char patternName8[] PROGMEM = "Random";
+        static const char patternName9[] PROGMEM = "Accelerando";
+        static const char patternName10[] PROGMEM = "Pulse";
+        static const char patternName11[] PROGMEM = "Sawtooth";
+        static const char patternName12[] PROGMEM = "Heartbeat";
+        static const char patternName13[] PROGMEM = "Edge";
+
+        static const char* const strokeEngineNames[14] = {
+            patternName0, patternName1, patternName2,
+            patternName3, patternName4, patternName5,
+            patternName6, patternName7, patternName8,
+            patternName9, patternName10, patternName11,
+            patternName12, patternName13,
+        };
+
+        // ============================================================
+        // Stroke Engine pattern descriptions
+        // ============================================================
+        static const char patternDesc0[] PROGMEM =
+            "Acceleration, coasting, deceleration equally split; no "
+            "sensation.";
+        static const char patternDesc1[] PROGMEM =
+            "Speed shifts with sensation; balances faster strokes.";
+        static const char patternDesc2[] PROGMEM =
+            "Sensation varies acceleration; from robotic to gradual.";
+        static const char patternDesc3[] PROGMEM =
+            "Full and half depth strokes alternate; sensation affects speed.";
+        static const char patternDesc4[] PROGMEM =
+            "Stroke depth increases per cycle; sensation sets count.";
+        static const char patternDesc5[] PROGMEM =
+            "Pauses between strokes; sensation adjusts length.";
+        static const char patternDesc6[] PROGMEM =
+            "Modifies length, maintains speed; sensation influences "
+            "direction.";
+        static const char patternDesc7[] PROGMEM =
+            "Sinusoidal depth variation; sensation controls wave period.";
+        static const char patternDesc8[] PROGMEM =
+            "Random depth within a range; sensation controls randomness.";
+        static const char patternDesc9[] PROGMEM =
+            "Speed increases progressively; sensation sets ramp length.";
+        static const char patternDesc10[] PROGMEM =
+            "Small fast strokes; vibrating effect; sensation controls depth.";
+        static const char patternDesc11[] PROGMEM =
+            "Linear ramp up then quick drop; sensation sets steepness.";
+        static const char patternDesc12[] PROGMEM =
+            "Two fast strokes then pause; heartbeat rhythm; sensation "
+            "controls pause.";
+        static const char patternDesc13[] PROGMEM =
+            "Deep hold with small movements; sensation controls size.";
+
+        static const char* const strokeEngineDescriptions[14] = {
+            patternDesc0, patternDesc1, patternDesc2,
+            patternDesc3, patternDesc4, patternDesc5,
+            patternDesc6, patternDesc7, patternDesc8,
+            patternDesc9, patternDesc10, patternDesc11,
+            patternDesc12, patternDesc13,
+        };
+
+    }  // namespace strings
+}  // namespace ui
+
+#endif  // UI_STRINGS_H

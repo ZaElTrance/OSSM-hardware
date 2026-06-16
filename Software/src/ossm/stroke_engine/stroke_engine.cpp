@@ -107,6 +107,27 @@ static void startStrokeEngineTask(void *pvParameters) {
                 case StrokePatterns::Insist:
                     Stroker.setPattern(new Insist("Insist"), false);
                     break;
+                case StrokePatterns::Wave:
+                    Stroker.setPattern(new Wave("Wave"), false);
+                    break;
+                case StrokePatterns::Random:
+                    Stroker.setPattern(new RandomPattern("Random"), false);
+                    break;
+                case StrokePatterns::Accelerando:
+                    Stroker.setPattern(new Accelerando("Accelerando"), false);
+                    break;
+                case StrokePatterns::Pulse:
+                    Stroker.setPattern(new Pulse("Pulse"), false);
+                    break;
+                case StrokePatterns::Sawtooth:
+                    Stroker.setPattern(new Sawtooth("Sawtooth"), false);
+                    break;
+                case StrokePatterns::Heartbeat:
+                    Stroker.setPattern(new Heartbeat("Heartbeat"), false);
+                    break;
+                case StrokePatterns::Edge:
+                    Stroker.setPattern(new Edge("Edge"), false);
+                    break;
                 default:
                     break;
             }
